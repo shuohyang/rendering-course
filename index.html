@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="static/css/styles.css">
+<script type="text/javascript" src="static/js/glMatrix-0.9.5.min.js"></script>
+<script type="text/javascript" src="static/js/hw5.js"></script>
+
+</head>
+
+<body onload="webGLStart();">
+
+<!-- here use the same width and height
+This comment code is based on https://www.w3schools.com/tags/tag_comment.asp
+Style of canvas is based on https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column
+Style of the border is based on https://developer.mozilla.org/en-US/docs/Web/CSS/border
+Different type: cursor
+https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+Change cursor based on
+https://www.w3schools.com/jsref/prop_style_cursor.asp
+Interaction between CSS with javascript is based on uniform-color-xform.html
+some other references:
+https://dev.to/snehalkadwe/how-to-create-same-height-div-as-parent-height-h6j
+-->
+
+
+<canvas id="hw-canvas" style="border: 2px dashed orange ; " width="700" height="700"> </canvas>
+
+<div>
+</div>
+
+<div>
+Keyboard operations:
+<br>
+1. Press J/j, K/k, and L/l to change the location of the light. The light is at the yellow sphere.
+<br>
+2. Press P/p, Y/y, and R/r to change the angle of the camera. Press B/b, N/n, and M/m to change the coordinate of the camera.
+<br>
+3. Press W/A/S/D to move object parallel to the X Z surface. Press SPACE to toggle the current object to be moved.
+Press U/u to move object along the Y axis.
+</div>
+
+<div>
+This homework adpats the code from the <a href=https://github.com/hguo/WebGL-tutorial>tutorial</a>.
+The computation of the normal direction refers to mario.js and 12-shading.js in the <a href=https://github.com/hguo/WebGL-tutorial>tutorial</a>.
+The shader code refers to 12-shading.html and mario-per-frag.html in the <a href=https://github.com/hguo/WebGL-tutorial>tutorial</a>.
+The environment cube mapping code adapts code from the cubeMappedTeapot.html and cubeMappedTeapot.js in the <a href=https://github.com/hguo/WebGL-tutorial>tutorial</a>.
+<a href=https://developer.mozilla.org/en-US/>MDN</a> documents and lecture notes in the Carmen are helpful to this homework.
+ The car model is downloaded from <a href=https://rigmodels.com/model.php?view=model__UK1SCZNSF1DXVR7IKGGYOM6UO&ykey=d079ac71ab8bbebe548a462936aaff67&yformat=Json&ysetting1=1&ysetting2=100>RIG Models</a>.
+The environment cube mapping images are from <a href=https://www.humus.name/index.php?page=Textures&ID=31>here</a>.
+The bump mapping images are downloaded from <a href=https://apoorvaj.io/exploring-bump-mapping-with-webgl/>this website</a> which is also a reference for the bump mapping shader code.
+Known issues in this homework can be found in the <a href="./Readme.txt" >Readme.txt</a> file.
+The CSS style file is based on ChatGPT.
+</div>
+
+<!--Add button based on 12-shading.html -->
+
+
+</body>
+
+</html>
