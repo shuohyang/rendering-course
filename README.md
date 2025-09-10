@@ -1,4 +1,4 @@
-This is a simple demo of implementing WebGL to express a 3D scence, based on the course material by [Prof. Han-Wei Shen]([/guides/content/editing-an-existing-page](https://han-wei-shen.github.io/teaching/)). Based on the instructions, to run this code please run python -m http.server in this directory and then open http://0.0.0.0:8000/hw5.html
+This is a simple demo of implementing WebGL to express a 3D scence, based on the course material by [Prof. Han-Wei Shen]([https://han-wei-shen.github.io/teaching/)]). Based on the instructions, to run this code please run python -m http.server in this directory and then open http://0.0.0.0:8000/hw5.html
 
 The environment cube mappping images are from https://www.humus.name/index.php?page=Textures&ID=31
 
